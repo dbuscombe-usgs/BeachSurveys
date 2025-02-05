@@ -6,6 +6,9 @@ The two principal datasets that have been distilled are:
 1. shoreline location mapped onto beach-orthogonal transects, expressed as chainage in meters from each transect's landward origin.
 2. beachface slope. The beachface is the portion of the beach between low and high water.
 
+## Usage
+
+This dataset serves as the basis of a set of programmatic workflows for analyzing beach behavior. It is designed in conjunction with [SDStools](https://github.com/Doodleverse/SDStools) and [CoastSeg](https://github.com/SatelliteShorelines/CoastSeg) (Fitzpatrick et al., 2024)
 
 
 ## Sites, and published data:
@@ -54,6 +57,8 @@ The two principal datasets that have been distilled are:
 
 * Fernández-Mora, A., Criado-Sudau, F.F., Gómez-Pujol, L. et al. Ten years of morphodynamic data at a micro-tidal urban beach: Cala Millor (Western Mediterranean Sea). Sci Data 10, 301 (2023). https://doi.org/10.1038/s41597-023-02210-2
 
+* Fitzpatrick, S., Buscombe, D., Warrick, J.A., Lundine, M.A. and Vos, K., 2024. CoastSeg: an accessible and extendable hub for satellite-derived-shoreline (SDS) detection and mapping. Journal of Open Source Software, 9(99), p.6683.
+
 * Henderson, R.E., Heslin, J.L., and Himmelstoss, E.A., 2021, Puerto Rico shoreline change — A GIS compilation of shorelines, baselines, intersects, and change rates calculated using the Digital Shoreline Analysis system version 5.1 (ver. 2.0, March 2023): U.S. Geological Survey data release, https://doi.org/10.5066/P9FNRRN0. 
 
 * Hoover, D.J., Snyder, A.G., Barnard, P.L., Hansen, J.E. and J.A. Warrick, 2024, Shoreline data for Ocean Beach, San Francisco, California, 2004 to 2021: U.S. Geological Survey data release, https://doi.org/10.5066/P13CAWLM.
@@ -71,7 +76,7 @@ The two principal datasets that have been distilled are:
 |---|---|---|---|---|---|
 |  Cala Millor | 227  | 2011/06/10 to 2020/12/30  | 25  | 0.051  | -0.15 |
 |  Cardiff/Solana | 188  | 2007/05/31 to 2016/12/22  | 20  | 0.047  | 0.774 |
-|  Duck | 858  | 1984/01/04 to 2023/03/24  | 45  |  0.092 | -0.128 |
+|  Duck | 891  | 1984/01/04 to 2024/12/24  | 45  |  0.092 | -0.128 |
 |  Elwha | 249  | 2009/04/01 to 2024/01/10  | 16  | 0.15  | 1.165 |
 |  Imperial | 95  | 2008/11/14 to 2016/12/12  | 12  |  0.07 | 0.774 |
 |  Madeira | 42  | 2016/09/09 to 2023/12/01  | 6  | 0.085  | -0.096 |
